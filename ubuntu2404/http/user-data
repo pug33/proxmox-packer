@@ -29,5 +29,6 @@ autoinstall:
     disable_root: false
   packages:
     - qemu-guest-agent
+    - sudo
   late-commands:
     - echo 'ubuntu ALL=(ALL) NOPASSWD:ALL' > /target/etc/sudoers.d/ubuntu
